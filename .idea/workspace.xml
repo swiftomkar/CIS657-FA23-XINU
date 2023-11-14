@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6754c6cb-4a31-403e-b066-9a937c2af2c5" name="Default Changelist" comment="configured for qemu-mipsel" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YBRAytwsF1GxoYVcZMMM1CQd4U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6754c6cb-4a31-403e-b066-9a937c2af2c5" name="Default Changelist" comment="" />
+      <created>1699996848024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699996848024</updated>
+      <workItem from="1699996849976" duration="676000" />
+    </task>
+    <task id="LOCAL-00001" summary="configured for qemu-mipsel">
+      <created>1699997486836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699997486836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="configured for qemu-mipsel" />
+    <option name="LAST_COMMIT_MESSAGE" value="configured for qemu-mipsel" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="144" y="94" key="DiffContextDialog" timestamp="1699997498139">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="144" y="94" key="DiffContextDialog/0.25.1440.821@0.25.1440.821" timestamp="1699997498139" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1699997499574">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.25.1440.821@0.25.1440.821" timestamp="1699997499574" />
+    <state x="521" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1699997612414">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="521" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.821@0.25.1440.821" timestamp="1699997612414" />
+    <state x="538" y="330" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1699997554664">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="538" y="330" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.821@0.25.1440.821" timestamp="1699997554664" />
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup" timestamp="1699997000893">
+      <screen x="0" y="25" width="1440" height="821" />
+    </state>
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.25.1440.821@0.25.1440.821" timestamp="1699997000893" />
+  </component>
+</project>
