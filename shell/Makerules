@@ -10,7 +10,7 @@ C_FILES = shell.c lexan.c getopt.c
 C_FILES += xsh_clear.c xsh_date.c xsh_exit.c xsh_help.c xsh_reset.c xsh_sleep.c
 
 # Processes commands
-C_FILES += xsh_kill.c xsh_ps.c
+C_FILES += xsh_kill.c xsh_ps.c xsh_myTest.c
 
 # Memory commands
 C_FILES += xsh_memdump.c xsh_memstat.c

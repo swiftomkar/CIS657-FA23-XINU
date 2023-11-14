@@ -38,7 +38,7 @@ ifeq ($(MIPS_ENDIANNESS),little)
 else
   ARCH_PREFIX   := mips-
 endif
-ARCH_ROOT :=
+ARCH_ROOT := /usr/local/project/mipsel-dev/bin/
 
 # Flag to pass to compiler and assembler for the specific MIPS Instruction Set
 # Architecture Level
