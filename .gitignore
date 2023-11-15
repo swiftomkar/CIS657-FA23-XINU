@@ -25,10 +25,10 @@
 *.bin
 
 # Xinu build files
-compile/config/config
-compile/config/y.tab.h
-compile/config/parse.c
-compile/version
-compile/vn
-include/conf.h
-system/conf.c
+#compile/config/config
+#compile/config/y.tab.h
+#compile/config/parse.c
+#compile/version
+#compile/vn
+#include/conf.h
+#system/conf.c
