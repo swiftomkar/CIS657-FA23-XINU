@@ -82,21 +82,7 @@ computer's architecture to MIPSEL (little endian MIPS for the 54GL router)
 or MIPS (big endian for the 160NL router).  Instructions on how to do this
 can be found here:
 
-http://xinu.mscs.mu.edu/Build_Xinu#Cross-Compiler
-
-### 3.3 Serial communication software ###
-
-Any serial communication software will do. The Xinu Console Tools include
-a program called tty-connect which can serve the purpose for a UNIX 
-environment.  More information about the Xinu Console Tools can be found 
-at:
-
-http://xinu.mscs.mu.edu/Console_Tools#Xinu_Console_Tools
-
-### 3.4 TFTP server software ###
-
-A TFTP server will provide the router with the ability to download and run
-the compiled Embedded Xinu image.  
+https://xinu.cs.mu.edu/index.php/Build_Xinu
 
 ## 4. Installation Instructions ##
 
@@ -111,43 +97,17 @@ your router for it to run Embedded Xinu.  The default build is for the
 WRT54GL router; change the compile/Makefile `PLATFORM` variable for other
 builds.  See the compile/platforms directory for supported configurations.
 
-### 4.2 Make serial and network connections ###
+### Install qemu-system-mipsel ###
+```
+sudo apt-get update
+sudo apt-get install qemu-system-mipsel
+```
+### Run xinu on qemu-mipsel ###
 
-After creating the `xinu.boot` image you can connect the router's serial
-port to your computer and open up a connection using the following
-settings:
+```
+qemu-system-mipsel -M mips -m 256M -kernel xinu.boot -nographic
+```
 
- - 8 data bits, no parity bit, and 1 stop bit (8N1)
- - 115200 bps
-
-### 4.3 Enter Common Firmware Environment prompt ###
-
-With the serial connection open, power on the router and immediately start
-sending breaks (Control-C) to the device, if your luck holds you will be
-greeted with a CFE prompt.
-
-    CFE>
-
-If the router seems to start booting up, you can powercycle and try again.
-
-### 4.4 Set IP address ###
-
-By default, the router will have a static IP address of 192.168.1.1.  If you
-need to set a different address for your network, run one of the following
-commands:
-
-    ifconfig eth0 -auto                      if you are using a DHCP server 
-    ifconfig eth0 -addr=*.*.*.*              for a static IP address
-
-### 4.5 Load image over TFTP ###
-
-On a computer that is network accessible from the router, start your TFTP
-server and place the xinu.boot image in the root directory that the server
-makes available.
-
-Then, on the router type the command:
-
-    CFE> boot -elf [TFTP server IP]:xinu.boot
 
 If all has gone correctly the router you will be greeted with the Xinu Shell
 (`xsh$ `), which means you are now running Embedded Xinu!
